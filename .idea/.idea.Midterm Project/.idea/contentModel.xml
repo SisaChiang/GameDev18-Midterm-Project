@@ -6,6 +6,7 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="PlayerMovement.cs" t="Include" />
+          <e p="TIme.cs" t="Include" />
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />

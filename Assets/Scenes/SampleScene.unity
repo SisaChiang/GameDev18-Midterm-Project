@@ -353,6 +353,7 @@ GameObject:
   - component: {fileID: 2023734810}
   - component: {fileID: 2023734809}
   - component: {fileID: 2023734808}
+  - component: {fileID: 2023734811}
   - component: {fileID: 2023734807}
   m_Layer: 0
   m_Name: Tempo Player
@@ -429,3 +430,15 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2023734811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2023734806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3363d5cf1fe948048f98a83fd9e92be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 1

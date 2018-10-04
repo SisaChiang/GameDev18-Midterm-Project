@@ -27,23 +27,23 @@ public class ObstacleMovement : MonoBehaviour {
 			int randomNumber = Random.Range(0, 100); // rand num from 0- 100
 			if (randomNumber < 25)
 			{
-				// 50 percent chance of turning left
+				// turning left
 				transform.Rotate(0f, -90f, 0f);
 			}
 			else if (randomNumber <50)
 			{
-				// 50 percent chance of turning right
+				// turning right
 				transform.Rotate(0f, 90f, 0f);
 			}
 			else if (randomNumber < 75)
 			{
-				// 50 percent chance of turning forward
-				transform.Rotate(90f, 0f, 0f);
+				// turning forward
+				transform.Rotate(0f, 180f, 0f);
 			}
 			else
 			{
-				// 50 percent chance of turning back?
-				transform.Rotate(-90f, 0f, 0f);
+				// turning back
+				transform.Rotate(0f, -180f, 0f);
 			}
 		}
 		else

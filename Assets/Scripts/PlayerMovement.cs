@@ -8,7 +8,8 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
 
-	public float moveSpeed = 1f; 
+	public float moveSpeed = 1f;
+	public GameObject milkShakeinHand;
 	
 	// this variable will remember input and pass it to physics
 	private Vector3 inputVector;
@@ -42,5 +43,15 @@ public class PlayerMovement : MonoBehaviour
 	{
 		GetComponent<Rigidbody>().velocity = inputVector * moveSpeed + Physics.gravity * 0.5f;
 	}
-	
+
+	void OnTriggerEnter(Collider other)
+	{
+		// when player collide with the game object that tagged "Milkshake"
+		if (other.gameObject.CompareTag("MilkShake"))
+		{
+			// the game object "milkShakeinHand will be set active = show up in scene"
+			milkShakeinHand.SetActive(true);
+		}
+	}
+
 }

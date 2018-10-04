@@ -33,6 +33,8 @@ public class PlayerMovement : MonoBehaviour
 		// apply keyboard input to position
 		inputVector = transform.forward * vertical;
 		inputVector += transform.right * horizontal;
+		
+		
 
 	}
 

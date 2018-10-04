@@ -5,12 +5,15 @@ using UnityEngine.UI;
 
 
 // this script is when player collide with obstacles
-// the player object will be destroyed and lead to game over
 // attach this script to the obstacle objects
+//Intent: when collide with the obstacles, timer counts faster
+
+
 
 public class obstacles : MonoBehaviour
 {
 
+	
 	//public Text GameOverText;
 
 	// Use this for initialization
@@ -25,9 +28,10 @@ public class obstacles : MonoBehaviour
 
 	void OnTriggerEnter(Collider activator)
 	{
-		Destroy(activator.gameObject);
-
+		TIme.timeLeft -= Time.deltaTime * 5f; 
+		//Destroy(activator.gameObject);
 		//GameOverText.text = "Game Over!";
+
 	}
 
 }

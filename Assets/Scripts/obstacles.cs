@@ -13,6 +13,7 @@ using UnityEngine.UI;
 public class obstacles : MonoBehaviour
 {
 
+	public TIme gameTimer;
 	
 	//public Text GameOverText;
 
@@ -28,7 +29,7 @@ public class obstacles : MonoBehaviour
 
 	void OnTriggerEnter(Collider activator)
 	{
-		TIme.timeLeft -= Time.deltaTime * 5f; 
+		gameTimer.timeLeft -= Time.deltaTime * 5f; 
 		//Destroy(activator.gameObject);
 		//GameOverText.text = "Game Over!";
 

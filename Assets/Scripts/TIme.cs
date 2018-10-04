@@ -8,7 +8,7 @@ using UnityEngine.UI;
 // put this script on a Text display.
 public class TIme : MonoBehaviour
 {
-	private float timeLeft = 300.0f;
+	public float timeLeft = 300.0f;
 	
 	public Text myTextDisplay;
 

@@ -1501,6 +1501,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   WinTextDisplay: {fileID: 516270524}
+  milkShakeinHand2: {fileID: 105956365}
 --- !u!65 &896405297
 BoxCollider:
   m_ObjectHideFlags: 0

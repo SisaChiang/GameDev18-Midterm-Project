@@ -8,7 +8,7 @@ using UnityEngine.UI;
 public class FriendsToWin : MonoBehaviour {
 
 	public Text WinTextDisplay;
-	
+	public GameObject milkShakeinHand2;
 	
 	// Update is called once per frame
 	void Update () {
@@ -19,7 +19,15 @@ public class FriendsToWin : MonoBehaviour {
 	{
 		
 		// insert when the player and the milkshake is being enable, then show the text
-		
-		WinTextDisplay.text = "You Win!";
+		if (milkShakeinHand2.activeInHierarchy)
+		{
+			WinTextDisplay.text = "You Win!";
+			
+		}
+		else
+		{
+			WinTextDisplay.text = "Can you get us milkshake?";
+		}
+
 	}
 }

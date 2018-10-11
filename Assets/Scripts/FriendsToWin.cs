@@ -17,6 +17,9 @@ public class FriendsToWin : MonoBehaviour {
 	
 	void OnTriggerEnter(Collider activator)
 	{
+		
+		// insert when the player and the milkshake is being enable, then show the text
+		
 		WinTextDisplay.text = "You Win!";
 	}
 }

@@ -15,13 +15,13 @@
     <session id="-364732280">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
+          <entry key="project.closed" value="14" />
           <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="5" />
+          <entry key="project.open.time.5" value="6" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -53,7 +53,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
+            <state relative-caret-position="648">
               <caret line="52" selection-start-line="52" selection-end-line="52" />
               <folding>
                 <marker date="1538642223000" expanded="false" signature="6:78" ph="..." />
@@ -184,13 +184,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
       </pane>
       <pane id="FileSystemExplorer" />
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -249,11 +249,12 @@
       <workItem from="1538457857074" duration="345000" />
       <workItem from="1538635820929" duration="4867000" />
       <workItem from="1539192102832" duration="187000" />
+      <workItem from="1539192617520" duration="335000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11078000" />
+    <option name="totallyTimeSpent" value="11413000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -324,7 +325,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
+        <state relative-caret-position="648">
           <caret line="52" selection-start-line="52" selection-end-line="52" />
           <folding>
             <marker date="1538642223000" expanded="false" signature="6:78" ph="..." />

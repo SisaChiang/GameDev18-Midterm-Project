@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eaf6a8b7-c083-4830-b220-7a29d89d6e8f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FriendsToWin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FriendsToWin.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Midterm Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Midterm Project/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,13 +14,13 @@
     <session id="-364732280">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="14" />
+          <entry key="project.closed" value="16" />
           <entry key="project.open.time.0" value="4" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="7" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -36,12 +35,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="5119" />
+          <entry key="cs" value="5124" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="5119" />
+          <entry key="C#" value="5124" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -50,10 +49,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="606">
+            <state relative-caret-position="648">
               <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
               <folding>
                 <marker date="1538642223000" expanded="false" signature="6:78" ph="..." />
@@ -89,7 +88,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/ObstacleMovement.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
+            <state relative-caret-position="630">
               <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
               <folding>
                 <marker date="1538642375000" expanded="false" signature="6:78" ph="..." />
@@ -107,19 +106,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/FriendsToWin.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="21" column="45" lean-forward="true" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+            <state relative-caret-position="285">
+              <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
               <folding>
-                <marker date="1539240777000" expanded="false" signature="6:100" ph="..." />
-                <marker date="1539240777000" expanded="true" signature="102:252" ph="/* this script is for win stage, when player collide with the object. ... */" />
-                <marker date="1539240777000" expanded="true" signature="295:720" ph="{...}" />
-                <marker date="1539240777000" expanded="true" signature="418:425" ph="{...}" />
-                <marker date="1539240777000" expanded="true" signature="468:718" ph="{...}" />
-                <marker date="1539240777000" expanded="true" signature="596:645" ph="{...}" />
-                <marker date="1539240777000" expanded="true" signature="652:714" ph="{...}" />
+                <marker date="1539240917000" expanded="false" signature="6:100" ph="..." />
+                <marker date="1539240917000" expanded="true" signature="102:252" ph="/* this script is for win stage, when player collide with the object. ... */" />
+                <marker date="1539240917000" expanded="true" signature="295:722" ph="{...}" />
+                <marker date="1539240917000" expanded="true" signature="418:425" ph="{...}" />
+                <marker date="1539240917000" expanded="true" signature="468:720" ph="{...}" />
+                <marker date="1539240917000" expanded="true" signature="598:647" ph="{...}" />
+                <marker date="1539240917000" expanded="true" signature="654:716" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -186,13 +185,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
+      <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
       </pane>
-      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -252,12 +251,13 @@
       <workItem from="1538635820929" duration="4867000" />
       <workItem from="1539192102832" duration="187000" />
       <workItem from="1539192617520" duration="335000" />
-      <workItem from="1539238674471" duration="1417000" />
+      <workItem from="1539238674471" duration="1689000" />
+      <workItem from="1539242469897" duration="75000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12830000" />
+    <option name="totallyTimeSpent" value="13177000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -326,36 +326,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TIme.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        <state relative-caret-position="648">
+          <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
           <folding>
-            <marker date="1538638414000" expanded="false" signature="6:100" ph="..." />
-            <marker date="1538638414000" expanded="true" signature="103:181" ph="/* this script is for my countdown timer ... */" />
-            <marker date="1538638414000" expanded="true" signature="215:591" ph="{...}" />
-            <marker date="1538638414000" expanded="true" signature="360:367" ph="{...}" />
-            <marker date="1538638414000" expanded="true" signature="421:589" ph="{...}" />
-            <marker date="1538638414000" expanded="true" signature="538:583" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ObstacleMovement.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
-          <folding>
-            <marker date="1538642375000" expanded="false" signature="6:78" ph="..." />
-            <marker date="1538642375000" expanded="true" signature="81:181" ph="/* Usage: put this script on Obstacles in the scene ... */" />
-            <marker date="1538642375000" expanded="true" signature="228:1213" ph="{...}" />
-            <marker date="1538642375000" expanded="true" signature="285:1211" ph="{...}" />
-            <marker date="1538642375000" expanded="true" signature="648:1087" ph="{...}" />
-            <marker date="1538642375000" expanded="true" signature="746:812" ph="{...}" />
-            <marker date="1538642375000" expanded="true" signature="842:908" ph="{...}" />
-            <marker date="1538642375000" expanded="true" signature="939:1008" ph="{...}" />
-            <marker date="1538642375000" expanded="true" signature="1016:1083" ph="{...}" />
-            <marker date="1538642375000" expanded="true" signature="1094:1202" ph="{...}" />
+            <marker date="1538642223000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1538642223000" expanded="true" signature="80:189" ph="/* Usage: put his on a Capsule with a Rigidbody ... */" />
+            <marker date="1538642223000" expanded="true" signature="234:1355" ph="{...}" />
+            <marker date="1538642223000" expanded="true" signature="451:952" ph="{...}" />
+            <marker date="1538642223000" expanded="true" signature="973:1068" ph="{...}" />
+            <marker date="1538642223000" expanded="true" signature="1106:1352" ph="{...}" />
+            <marker date="1538642223000" expanded="true" signature="1227:1349" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -376,34 +358,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ObstacleMovement.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+        <state relative-caret-position="630">
+          <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
           <folding>
-            <marker date="1538642223000" expanded="false" signature="6:78" ph="..." />
-            <marker date="1538642223000" expanded="true" signature="80:189" ph="/* Usage: put his on a Capsule with a Rigidbody ... */" />
-            <marker date="1538642223000" expanded="true" signature="234:1355" ph="{...}" />
-            <marker date="1538642223000" expanded="true" signature="451:952" ph="{...}" />
-            <marker date="1538642223000" expanded="true" signature="973:1068" ph="{...}" />
-            <marker date="1538642223000" expanded="true" signature="1106:1352" ph="{...}" />
-            <marker date="1538642223000" expanded="true" signature="1227:1349" ph="{...}" />
+            <marker date="1538642375000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1538642375000" expanded="true" signature="81:181" ph="/* Usage: put this script on Obstacles in the scene ... */" />
+            <marker date="1538642375000" expanded="true" signature="228:1213" ph="{...}" />
+            <marker date="1538642375000" expanded="true" signature="285:1211" ph="{...}" />
+            <marker date="1538642375000" expanded="true" signature="648:1087" ph="{...}" />
+            <marker date="1538642375000" expanded="true" signature="746:812" ph="{...}" />
+            <marker date="1538642375000" expanded="true" signature="842:908" ph="{...}" />
+            <marker date="1538642375000" expanded="true" signature="939:1008" ph="{...}" />
+            <marker date="1538642375000" expanded="true" signature="1016:1083" ph="{...}" />
+            <marker date="1538642375000" expanded="true" signature="1094:1202" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/FriendsToWin.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="21" column="45" lean-forward="true" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+        <state relative-caret-position="285">
+          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
           <folding>
-            <marker date="1539240777000" expanded="false" signature="6:100" ph="..." />
-            <marker date="1539240777000" expanded="true" signature="102:252" ph="/* this script is for win stage, when player collide with the object. ... */" />
-            <marker date="1539240777000" expanded="true" signature="295:720" ph="{...}" />
-            <marker date="1539240777000" expanded="true" signature="418:425" ph="{...}" />
-            <marker date="1539240777000" expanded="true" signature="468:718" ph="{...}" />
-            <marker date="1539240777000" expanded="true" signature="596:645" ph="{...}" />
-            <marker date="1539240777000" expanded="true" signature="652:714" ph="{...}" />
+            <marker date="1539240917000" expanded="false" signature="6:100" ph="..." />
+            <marker date="1539240917000" expanded="true" signature="102:252" ph="/* this script is for win stage, when player collide with the object. ... */" />
+            <marker date="1539240917000" expanded="true" signature="295:722" ph="{...}" />
+            <marker date="1539240917000" expanded="true" signature="418:425" ph="{...}" />
+            <marker date="1539240917000" expanded="true" signature="468:720" ph="{...}" />
+            <marker date="1539240917000" expanded="true" signature="598:647" ph="{...}" />
+            <marker date="1539240917000" expanded="true" signature="654:716" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TIme.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding>
+            <marker date="1538638414000" expanded="false" signature="6:100" ph="..." />
+            <marker date="1538638414000" expanded="true" signature="103:181" ph="/* this script is for my countdown timer ... */" />
+            <marker date="1538638414000" expanded="true" signature="215:591" ph="{...}" />
+            <marker date="1538638414000" expanded="true" signature="360:367" ph="{...}" />
+            <marker date="1538638414000" expanded="true" signature="421:589" ph="{...}" />
+            <marker date="1538638414000" expanded="true" signature="538:583" ph="{...}" />
           </folding>
         </state>
       </provider>

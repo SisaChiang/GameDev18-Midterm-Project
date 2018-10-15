@@ -14,18 +14,30 @@ public class PlayerMovement : MonoBehaviour
 	// this variable will remember input and pass it to physics
 	private Vector3 inputVector;
 	
+	// degrees for looking up/down, stored as a float so we can clamp it later
+	float verticalLook = 0f;
+	
 	// Update is called once per frame
 	void Update () {
 		
 		// for mouse look
 
-		float mouseX = Input.GetAxis("Mouse X");
-		float mouseY = Input.GetAxis("Mouse Y");
+		float mouseX = Input.GetAxis("Mouse X")* Time.deltaTime *100f;
+		float mouseY = Input.GetAxis("Mouse Y")* Time.deltaTime *100f;
 		
 		//rotate camera based on mouse input
 
 		transform.Rotate(0f, mouseX, 0f);
-		Camera.main.transform.Rotate(-mouseY, 0f, 0f);
+		//Camera.main.transform.Rotate(-mouseY, 0f, 0f);
+
+		//Better Mouse Look
+		verticalLook += -mouseY;
+		verticalLook = Mathf.Clamp(verticalLook, -80f, 80f);
+		
+		// actually apply vertical look to the rotation
+		Camera.main.transform.localEulerAngles = new Vector3( verticalLook, 0f, 0f);
+		
+		
 		
 		// WASD movement
 		float horizontal = Input.GetAxis("Horizontal");

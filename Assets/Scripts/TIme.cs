@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using UnityEngine.SceneManagement;
 
 // this script is for my countdown timer
 // put this script on a Text display.
@@ -28,7 +28,8 @@ public class TIme : MonoBehaviour
 
 		if (timeLeft < 0)
 		{
-			myTextDisplay.text = "Game Over";
+			SceneManager.LoadScene("GameOver");
+			//myTextDisplay.text = "Game Over";
 		}
 
 

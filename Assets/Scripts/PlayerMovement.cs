@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
 
 	public float moveSpeed = 1f;
 	public GameObject milkShakeinHand;
+	public GameObject OtherinHand;
 	
 	// this variable will remember input and pass it to physics
 	private Vector3 inputVector;
@@ -36,9 +37,17 @@ public class PlayerMovement : MonoBehaviour
 		
 		// actually apply vertical look to the rotation
 		Camera.main.transform.localEulerAngles = new Vector3( verticalLook, 0f, 0f);
-		
-		
-		
+
+
+		// lock and hide the mouse cursor, if they click their mouse
+		if (Input.GetMouseButtonDown(0))
+		{
+			Cursor.lockState = CursorLockMode.Locked;
+			Cursor.visible = false; // hide it manually
+		}
+
+
+
 		// WASD movement
 		float horizontal = Input.GetAxis("Horizontal");
 		float vertical = Input.GetAxis("Vertical");
@@ -63,6 +72,13 @@ public class PlayerMovement : MonoBehaviour
 		{
 			// the game object "milkShakeinHand will be set active = show up in scene"
 			milkShakeinHand.SetActive(true);
+			OtherinHand.SetActive(false);
+		}
+
+		if (other.gameObject.CompareTag("NotMilkShake"))
+		{
+			// the game object "OtherinHand" will be set active = show up in scene
+			OtherinHand.SetActive(true);
 		}
 	}
 

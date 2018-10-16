@@ -9,6 +9,7 @@ public class FriendsToWin : MonoBehaviour {
 
 	public Text WinTextDisplay;
 	public GameObject milkShakeinHand2;
+	public GameObject OtherinHand2;
 	
 	// Update is called once per frame
 	void Update () {
@@ -27,6 +28,11 @@ public class FriendsToWin : MonoBehaviour {
 		else
 		{
 			WinTextDisplay.text = "Can you get us milkshake?";
+		}
+
+		if (OtherinHand2.activeInHierarchy)
+		{
+			WinTextDisplay.text = "Oh, This is not the milk shake we want";
 		}
 
 	}

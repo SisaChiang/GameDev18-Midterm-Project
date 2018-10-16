@@ -10,6 +10,7 @@ public class FriendsToWin : MonoBehaviour {
 	public Text WinTextDisplay;
 	public GameObject milkShakeinHand2;
 	public GameObject OtherinHand2;
+	public GameObject FoodinHand2;
 	
 	// Update is called once per frame
 	void Update () {
@@ -22,7 +23,7 @@ public class FriendsToWin : MonoBehaviour {
 		// insert when the player and the milkshake is being enable, then show the text
 		if (milkShakeinHand2.activeInHierarchy)
 		{
-			WinTextDisplay.text = "You Win!, Press 'M'";
+			WinTextDisplay.text = "Thank you!, Press 'M'";
 		}
 			
 		else
@@ -32,7 +33,12 @@ public class FriendsToWin : MonoBehaviour {
 
 		if (OtherinHand2.activeInHierarchy)
 		{
-			WinTextDisplay.text = "Oh, This is not the milk shake we want";
+			WinTextDisplay.text = "Oh, this is not the milk shake we want, we want the pink one";
+		}
+
+		if (FoodinHand2.activeInHierarchy)
+		{
+			WinTextDisplay.text = "This is not even milk shake, can we have milk shake?";
 		}
 
 	}

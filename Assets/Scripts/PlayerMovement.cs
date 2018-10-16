@@ -11,6 +11,7 @@ public class PlayerMovement : MonoBehaviour
 	public float moveSpeed = 1f;
 	public GameObject milkShakeinHand;
 	public GameObject OtherinHand;
+	public GameObject FoodinHand;
 	
 	// this variable will remember input and pass it to physics
 	private Vector3 inputVector;
@@ -70,15 +71,26 @@ public class PlayerMovement : MonoBehaviour
 		// when player collide with the game object that tagged "Milkshake"
 		if (other.gameObject.CompareTag("MilkShake"))
 		{
-			// the game object "milkShakeinHand will be set active = show up in scene"
+			// the game object that tag "milkShakeinHand will be set active = show up in scene"
 			milkShakeinHand.SetActive(true);
 			OtherinHand.SetActive(false);
+			FoodinHand.SetActive(false);
 		}
 
 		if (other.gameObject.CompareTag("NotMilkShake"))
 		{
-			// the game object "OtherinHand" will be set active = show up in scene
+			// the game object that tag "OtherinHand" will be set active = show up in scene
 			OtherinHand.SetActive(true);
+			milkShakeinHand.SetActive(false);
+			FoodinHand.SetActive(false);
+		}
+
+		if (other.gameObject.CompareTag("OtherFood"))
+		{
+			// the game object that tag "otherfood" will be set active = show up in scene
+			FoodinHand.SetActive(true);
+			milkShakeinHand.SetActive(false);
+			OtherinHand.SetActive(false);
 		}
 	}
 

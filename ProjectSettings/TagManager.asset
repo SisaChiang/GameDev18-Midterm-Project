@@ -6,6 +6,7 @@ TagManager:
   tags:
   - MilkShake
   - NotMilkShake
+  - OtherFood
   layers:
   - Default
   - TransparentFX

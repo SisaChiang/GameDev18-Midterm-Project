@@ -11,6 +11,7 @@
           <e p="obstacles.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
           <e p="SwitchScene.cs" t="Include" />
+          <e p="SwitchScene0.cs" t="Include" />
           <e p="SwitchScene2.cs" t="Include" />
           <e p="SwitchScene3.cs" t="Include" />
           <e p="TIme.cs" t="Include" />

@@ -12,6 +12,7 @@ public class PlayerMovement : MonoBehaviour
 	public GameObject milkShakeinHand;
 	public GameObject OtherinHand;
 	public GameObject FoodinHand;
+	public GameObject NoodleinHand;
 	
 	// this variable will remember input and pass it to physics
 	private Vector3 inputVector;
@@ -72,23 +73,38 @@ public class PlayerMovement : MonoBehaviour
 		if (other.gameObject.CompareTag("MilkShake"))
 		{
 			// the game object that tag "milkShakeinHand will be set active = show up in scene"
+			// other things other than milkshakeinhand will be disappeared and replaced
 			milkShakeinHand.SetActive(true);
 			OtherinHand.SetActive(false);
 			FoodinHand.SetActive(false);
+			NoodleinHand.SetActive(false);
 		}
 
 		if (other.gameObject.CompareTag("NotMilkShake"))
 		{
 			// the game object that tag "OtherinHand" will be set active = show up in scene
+			//same with above
 			OtherinHand.SetActive(true);
 			milkShakeinHand.SetActive(false);
 			FoodinHand.SetActive(false);
+			NoodleinHand.SetActive(false);
 		}
 
 		if (other.gameObject.CompareTag("OtherFood"))
 		{
 			// the game object that tag "otherfood" will be set active = show up in scene
+			// same with above
 			FoodinHand.SetActive(true);
+			milkShakeinHand.SetActive(false);
+			OtherinHand.SetActive(false);
+			NoodleinHand.SetActive(false);
+		}
+
+		if (other.gameObject.CompareTag("Noodles"))
+		{
+			// same with all above
+			NoodleinHand.SetActive(true);
+			FoodinHand.SetActive(false);
 			milkShakeinHand.SetActive(false);
 			OtherinHand.SetActive(false);
 		}

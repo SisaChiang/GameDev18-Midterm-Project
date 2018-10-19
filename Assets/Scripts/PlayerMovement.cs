@@ -13,6 +13,7 @@ public class PlayerMovement : MonoBehaviour
 	public GameObject OtherinHand;
 	public GameObject FoodinHand;
 	public GameObject NoodleinHand;
+	public GameObject IceCreaminHand;
 	
 	// this variable will remember input and pass it to physics
 	private Vector3 inputVector;
@@ -78,6 +79,7 @@ public class PlayerMovement : MonoBehaviour
 			OtherinHand.SetActive(false);
 			FoodinHand.SetActive(false);
 			NoodleinHand.SetActive(false);
+			IceCreaminHand.SetActive(false);
 		}
 
 		if (other.gameObject.CompareTag("NotMilkShake"))
@@ -88,6 +90,7 @@ public class PlayerMovement : MonoBehaviour
 			milkShakeinHand.SetActive(false);
 			FoodinHand.SetActive(false);
 			NoodleinHand.SetActive(false);
+			IceCreaminHand.SetActive(false);
 		}
 
 		if (other.gameObject.CompareTag("OtherFood"))
@@ -98,6 +101,7 @@ public class PlayerMovement : MonoBehaviour
 			milkShakeinHand.SetActive(false);
 			OtherinHand.SetActive(false);
 			NoodleinHand.SetActive(false);
+			IceCreaminHand.SetActive(false);
 		}
 
 		if (other.gameObject.CompareTag("Noodles"))
@@ -107,6 +111,18 @@ public class PlayerMovement : MonoBehaviour
 			FoodinHand.SetActive(false);
 			milkShakeinHand.SetActive(false);
 			OtherinHand.SetActive(false);
+			IceCreaminHand.SetActive(false);
+		}
+
+		if (other.gameObject.CompareTag("IceCream"))
+		{
+			// same with all above
+			IceCreaminHand.SetActive(true);
+			NoodleinHand.SetActive(false);
+			milkShakeinHand.SetActive(false);
+			OtherinHand.SetActive(false);
+			FoodinHand.SetActive(false);
+			
 		}
 	}
 

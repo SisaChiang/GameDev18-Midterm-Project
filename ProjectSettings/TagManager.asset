@@ -8,6 +8,7 @@ TagManager:
   - NotMilkShake
   - OtherFood
   - Noodles
+  - IceCream
   layers:
   - Default
   - TransparentFX

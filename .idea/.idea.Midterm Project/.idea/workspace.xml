@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eaf6a8b7-c083-4830-b220-7a29d89d6e8f" name="Default Changelist" comment="" />
+    <list default="true" id="eaf6a8b7-c083-4830-b220-7a29d89d6e8f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/InfoScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/InfoScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/InfoScene.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/InfoScene.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StartScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StartScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maya.mb" beforeDir="false" afterPath="$PROJECT_DIR$/maya.mb" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,13 +18,13 @@
     <session id="-364732280">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="23" />
+          <entry key="project.closed" value="24" />
           <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="10" />
-          <entry key="project.open.time.6" value="5" />
-          <entry key="project.opened" value="23" />
+          <entry key="project.open.time.6" value="6" />
+          <entry key="project.opened" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -33,12 +39,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="7321" />
+          <entry key="cs" value="7632" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="7321" />
+          <entry key="C#" value="7632" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -47,27 +53,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1515">
-              <caret line="103" column="9" selection-start-line="103" selection-start-column="9" selection-end-line="103" selection-end-column="9" />
+            <state relative-caret-position="1065">
+              <caret line="73" column="53" selection-start-line="73" selection-start-column="53" selection-end-line="73" selection-end-column="53" />
               <folding>
-                <marker date="1539849207000" expanded="false" signature="6:78" ph="..." />
-                <marker date="1539849207000" expanded="true" signature="80:189" ph="/* Usage: put his on a Capsule with a Rigidbody ... */" />
-                <marker date="1539849207000" expanded="true" signature="234:3035" ph="{...}" />
-                <marker date="1539849207000" expanded="true" signature="651:1635" ph="{...}" />
-                <marker date="1539849207000" expanded="true" signature="888:959" ph="/* Camera.main.transform.Rotate(-mouseY, 0f, 0f); ... */" />
-                <marker date="1539849207000" expanded="true" signature="1273:1373" ph="{...}" />
-                <marker date="1539849207000" expanded="true" signature="1656:1751" ph="{...}" />
-                <marker date="1539849207000" expanded="true" signature="1789:3032" ph="{...}" />
-                <marker date="1539849207000" expanded="true" signature="1910:2219" ph="{...}" />
-                <marker date="1539849207000" expanded="true" signature="1918:2080" ph="/* the game object that tag &quot;milkShakeinHand will be set active = show up in scene&quot; ... */" />
-                <marker date="1539849207000" expanded="true" signature="2271:2518" ph="{...}" />
-                <marker date="1539849207000" expanded="true" signature="2279:2379" ph="/* the game object that tag &quot;OtherinHand&quot; will be set active = show up in scene ... */" />
-                <marker date="1539849207000" expanded="true" signature="2567:2813" ph="{...}" />
-                <marker date="1539849207000" expanded="true" signature="2575:2674" ph="/* the game object that tag &quot;otherfood&quot; will be set active = show up in scene ... */" />
-                <marker date="1539849207000" expanded="true" signature="2860:3029" ph="{...}" />
+                <marker date="1539926508000" expanded="false" signature="6:78" ph="..." />
+                <marker date="1539926508000" expanded="true" signature="80:189" ph="/* Usage: put his on a Capsule with a Rigidbody ... */" />
+                <marker date="1539926508000" expanded="true" signature="234:3471" ph="{...}" />
+                <marker date="1539926508000" expanded="true" signature="686:1670" ph="{...}" />
+                <marker date="1539926508000" expanded="true" signature="923:994" ph="/* Camera.main.transform.Rotate(-mouseY, 0f, 0f); ... */" />
+                <marker date="1539926508000" expanded="true" signature="1308:1408" ph="{...}" />
+                <marker date="1539926508000" expanded="true" signature="1691:1786" ph="{...}" />
+                <marker date="1539926508000" expanded="true" signature="1824:3468" ph="{...}" />
+                <marker date="1539926508000" expanded="true" signature="1945:2290" ph="{...}" />
+                <marker date="1539926508000" expanded="true" signature="1953:2115" ph="/* the game object that tag &quot;milkShakeinHand will be set active = show up in scene&quot; ... */" />
+                <marker date="1539926508000" expanded="true" signature="2342:2625" ph="{...}" />
+                <marker date="1539926508000" expanded="true" signature="2350:2450" ph="/* the game object that tag &quot;OtherinHand&quot; will be set active = show up in scene ... */" />
+                <marker date="1539926508000" expanded="true" signature="2674:2956" ph="{...}" />
+                <marker date="1539926508000" expanded="true" signature="2682:2781" ph="/* the game object that tag &quot;otherfood&quot; will be set active = show up in scene ... */" />
+                <marker date="1539926508000" expanded="true" signature="3003:3208" ph="{...}" />
+                <marker date="1539926508000" expanded="true" signature="3256:3465" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -115,19 +122,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/FriendsToWin.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+            <state relative-caret-position="588">
+              <caret line="52" column="108" selection-start-line="52" selection-start-column="108" selection-end-line="52" selection-end-column="108" />
               <folding>
-                <marker date="1539850938000" expanded="false" signature="6:135" ph="..." />
-                <marker date="1539850938000" expanded="true" signature="136:286" ph="/* this script is for win stage, when player collide with the object. ... */" />
-                <marker date="1539850938000" expanded="true" signature="329:1256" ph="{...}" />
-                <marker date="1539850938000" expanded="true" signature="551:558" ph="{...}" />
-                <marker date="1539850938000" expanded="true" signature="601:1254" ph="{...}" />
-                <marker date="1539850938000" expanded="true" signature="731:798" ph="{...}" />
-                <marker date="1539850938000" expanded="true" signature="809:871" ph="{...}" />
-                <marker date="1539850938000" expanded="true" signature="910:1014" ph="{...}" />
-                <marker date="1539850938000" expanded="true" signature="1052:1138" ph="{...}" />
-                <marker date="1539850938000" expanded="true" signature="1178:1250" ph="{...}" />
+                <marker date="1539926590000" expanded="false" signature="6:135" ph="..." />
+                <marker date="1539926590000" expanded="true" signature="136:286" ph="/* this script is for win stage, when player collide with the object. ... */" />
+                <marker date="1539926590000" expanded="true" signature="329:1442" ph="{...}" />
+                <marker date="1539926590000" expanded="true" signature="587:594" ph="{...}" />
+                <marker date="1539926590000" expanded="true" signature="637:1440" ph="{...}" />
+                <marker date="1539926590000" expanded="true" signature="767:834" ph="{...}" />
+                <marker date="1539926590000" expanded="true" signature="845:907" ph="{...}" />
+                <marker date="1539926590000" expanded="true" signature="946:1050" ph="{...}" />
+                <marker date="1539926590000" expanded="true" signature="1088:1174" ph="{...}" />
+                <marker date="1539926590000" expanded="true" signature="1214:1286" ph="{...}" />
+                <marker date="1539926590000" expanded="true" signature="1328:1436" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -198,7 +206,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/SwitchScene0.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -243,9 +251,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SwitchScene2.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TIme.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SwitchScene3.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SwitchScene0.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FriendsToWin.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SwitchScene0.cs" />
       </list>
     </option>
   </component>
@@ -255,11 +263,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="88" />
-    <option name="y" value="57" />
-    <option name="width" value="1282" />
-    <option name="height" value="795" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="718" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectView">
     <navigator currentView="UnityExplorer" proportions="" version="1">
@@ -341,11 +347,12 @@
       <workItem from="1539848077394" duration="1158000" />
       <workItem from="1539886075353" duration="27000" />
       <workItem from="1539886233194" duration="319000" />
+      <workItem from="1539926372228" duration="961000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18884000" />
+    <option name="totallyTimeSpent" value="19845000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -357,10 +364,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="88" y="57" width="1282" height="795" extended-state="0" />
+    <frame x="185" y="82" width="1282" height="795" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11129032" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11290322" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -414,30 +421,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1515">
-          <caret line="103" column="9" selection-start-line="103" selection-start-column="9" selection-end-line="103" selection-end-column="9" />
-          <folding>
-            <marker date="1539849207000" expanded="false" signature="6:78" ph="..." />
-            <marker date="1539849207000" expanded="true" signature="80:189" ph="/* Usage: put his on a Capsule with a Rigidbody ... */" />
-            <marker date="1539849207000" expanded="true" signature="234:3035" ph="{...}" />
-            <marker date="1539849207000" expanded="true" signature="651:1635" ph="{...}" />
-            <marker date="1539849207000" expanded="true" signature="888:959" ph="/* Camera.main.transform.Rotate(-mouseY, 0f, 0f); ... */" />
-            <marker date="1539849207000" expanded="true" signature="1273:1373" ph="{...}" />
-            <marker date="1539849207000" expanded="true" signature="1656:1751" ph="{...}" />
-            <marker date="1539849207000" expanded="true" signature="1789:3032" ph="{...}" />
-            <marker date="1539849207000" expanded="true" signature="1910:2219" ph="{...}" />
-            <marker date="1539849207000" expanded="true" signature="1918:2080" ph="/* the game object that tag &quot;milkShakeinHand will be set active = show up in scene&quot; ... */" />
-            <marker date="1539849207000" expanded="true" signature="2271:2518" ph="{...}" />
-            <marker date="1539849207000" expanded="true" signature="2279:2379" ph="/* the game object that tag &quot;OtherinHand&quot; will be set active = show up in scene ... */" />
-            <marker date="1539849207000" expanded="true" signature="2567:2813" ph="{...}" />
-            <marker date="1539849207000" expanded="true" signature="2575:2674" ph="/* the game object that tag &quot;otherfood&quot; will be set active = show up in scene ... */" />
-            <marker date="1539849207000" expanded="true" signature="2860:3029" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/obstacles.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -469,25 +452,6 @@
             <marker date="1538642375000" expanded="true" signature="939:1008" ph="{...}" />
             <marker date="1538642375000" expanded="true" signature="1016:1083" ph="{...}" />
             <marker date="1538642375000" expanded="true" signature="1094:1202" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FriendsToWin.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
-          <folding>
-            <marker date="1539850938000" expanded="false" signature="6:135" ph="..." />
-            <marker date="1539850938000" expanded="true" signature="136:286" ph="/* this script is for win stage, when player collide with the object. ... */" />
-            <marker date="1539850938000" expanded="true" signature="329:1256" ph="{...}" />
-            <marker date="1539850938000" expanded="true" signature="551:558" ph="{...}" />
-            <marker date="1539850938000" expanded="true" signature="601:1254" ph="{...}" />
-            <marker date="1539850938000" expanded="true" signature="731:798" ph="{...}" />
-            <marker date="1539850938000" expanded="true" signature="809:871" ph="{...}" />
-            <marker date="1539850938000" expanded="true" signature="910:1014" ph="{...}" />
-            <marker date="1539850938000" expanded="true" signature="1052:1138" ph="{...}" />
-            <marker date="1539850938000" expanded="true" signature="1178:1250" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -559,6 +523,51 @@
             <marker date="1539886317000" expanded="true" signature="206:213" ph="{...}" />
             <marker date="1539886317000" expanded="true" signature="268:449" ph="{...}" />
             <marker date="1539886317000" expanded="true" signature="398:446" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FriendsToWin.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="52" column="108" selection-start-line="52" selection-start-column="108" selection-end-line="52" selection-end-column="108" />
+          <folding>
+            <marker date="1539926590000" expanded="false" signature="6:135" ph="..." />
+            <marker date="1539926590000" expanded="true" signature="136:286" ph="/* this script is for win stage, when player collide with the object. ... */" />
+            <marker date="1539926590000" expanded="true" signature="329:1442" ph="{...}" />
+            <marker date="1539926590000" expanded="true" signature="587:594" ph="{...}" />
+            <marker date="1539926590000" expanded="true" signature="637:1440" ph="{...}" />
+            <marker date="1539926590000" expanded="true" signature="767:834" ph="{...}" />
+            <marker date="1539926590000" expanded="true" signature="845:907" ph="{...}" />
+            <marker date="1539926590000" expanded="true" signature="946:1050" ph="{...}" />
+            <marker date="1539926590000" expanded="true" signature="1088:1174" ph="{...}" />
+            <marker date="1539926590000" expanded="true" signature="1214:1286" ph="{...}" />
+            <marker date="1539926590000" expanded="true" signature="1328:1436" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1065">
+          <caret line="73" column="53" selection-start-line="73" selection-start-column="53" selection-end-line="73" selection-end-column="53" />
+          <folding>
+            <marker date="1539926508000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1539926508000" expanded="true" signature="80:189" ph="/* Usage: put his on a Capsule with a Rigidbody ... */" />
+            <marker date="1539926508000" expanded="true" signature="234:3471" ph="{...}" />
+            <marker date="1539926508000" expanded="true" signature="686:1670" ph="{...}" />
+            <marker date="1539926508000" expanded="true" signature="923:994" ph="/* Camera.main.transform.Rotate(-mouseY, 0f, 0f); ... */" />
+            <marker date="1539926508000" expanded="true" signature="1308:1408" ph="{...}" />
+            <marker date="1539926508000" expanded="true" signature="1691:1786" ph="{...}" />
+            <marker date="1539926508000" expanded="true" signature="1824:3468" ph="{...}" />
+            <marker date="1539926508000" expanded="true" signature="1945:2290" ph="{...}" />
+            <marker date="1539926508000" expanded="true" signature="1953:2115" ph="/* the game object that tag &quot;milkShakeinHand will be set active = show up in scene&quot; ... */" />
+            <marker date="1539926508000" expanded="true" signature="2342:2625" ph="{...}" />
+            <marker date="1539926508000" expanded="true" signature="2350:2450" ph="/* the game object that tag &quot;OtherinHand&quot; will be set active = show up in scene ... */" />
+            <marker date="1539926508000" expanded="true" signature="2674:2956" ph="{...}" />
+            <marker date="1539926508000" expanded="true" signature="2682:2781" ph="/* the game object that tag &quot;otherfood&quot; will be set active = show up in scene ... */" />
+            <marker date="1539926508000" expanded="true" signature="3003:3208" ph="{...}" />
+            <marker date="1539926508000" expanded="true" signature="3256:3465" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -10,10 +10,13 @@ EditorBuildSettings:
     guid: ea8d2295d014b4608943df4337a890ae
   - enabled: 1
     path: Assets/Scenes/InfoScene.unity
-    guid: 765549b35e3c64fecab9ad958dd86336
+    guid: 9e08029430a834e97b803a599de86b48
   - enabled: 0
-    path: Assets/InfoScene.unity
-    guid: 0e1ba01333d3841f8b7abe984e54bd73
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/MainScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
